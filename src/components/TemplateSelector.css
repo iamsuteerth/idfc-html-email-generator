@@ -1,0 +1,47 @@
+.template-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.template-selector h2 {
+  font-size: 1.4rem;
+  color: #304369;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+}
+.preset-templates label,
+.custom-template label {
+  font-size: 1rem;
+  color: #334155;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.preset-templates select {
+  width: 100%;
+  padding: 9px 13px;
+  border: 1px solid var(--border);
+  font-size: 17px;
+  border-radius: 5px;
+  background: #fff;
+  transition: border 0.15s;
+}
+
+.custom-template input[type="file"] {
+  background: var(--input-bg);
+  border: 1px solid var(--border);
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.template-preview {
+  background: #e6ecfa;
+  font-size: 13px;
+  border-radius: 8px;
+  padding: 14px;
+  overflow-x: auto;
+  max-height: 130px;
+  font-family: "JetBrains Mono", monospace, monospace;
+  color: #263238;
+  border: 1px solid #cbd5e1;
+}

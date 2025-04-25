@@ -1,0 +1,62 @@
+.app-main {
+  max-width: 1150px;
+  margin: 40px auto;
+  display: flex;
+  gap: 2rem;
+  box-shadow: 0 4px 24px #b5c1d833;
+  border-radius: 16px;
+  background: var(--secondary-bg);
+  overflow: hidden;
+}
+
+.app-sidebar {
+  width: 340px;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  padding: 34px 24px;
+}
+
+.app-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 42px 44px 36px 44px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  color: var(--accent);
+  margin-bottom: 34px;
+}
+
+.process-btn {
+  padding: 13px 32px;
+  font-size: 18px;
+  background: var(--btn-bg);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px #2563eb20;
+  margin: 26px 0 0 0;
+  transition: background 0.15s;
+  cursor: pointer;
+}
+
+.process-btn:disabled {
+  background: var(--btn-bg-disabled);
+  cursor: not-allowed;
+}
+
+.error-message {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 14px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin: 0 0 15px 0;
+  border: 1px solid #fecaca;
+}

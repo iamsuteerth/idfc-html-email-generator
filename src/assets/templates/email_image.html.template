@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="MobileOptimized" content="width" />
+    <title>IDFC FIRST Bank</title>
+    <!-- Styles omitted for brevity -->
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" yahoo="fix">
+    <table width="650" border="0" align="center" cellpadding="0" cellspacing="0" role="presentation" class="containerWrap">
+        <tr>
+            <td align="center" valign="top">
+                <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td align="center" valign="top" style="line-height:0px">
+                            <!-- Main Banner Image -->
+                            <!-- This img will be replaced by the SPA tool -->
+                            <img id="to-be-replaced" src="" alt="Thank you for Registration - IDFC FIRST Bank" style="max-width:100%;height:auto;display:block;margin:0px" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
