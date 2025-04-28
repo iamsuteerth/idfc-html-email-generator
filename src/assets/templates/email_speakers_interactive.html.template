@@ -91,7 +91,9 @@ p,a,li,td,body,table,blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adj
         <tr>
           <td align="center" valign="top" style="line-height:0px">
             <!-- Main Banner Image with ID for replacement -->
-            <img id="to-be-replaced" src="" width="650" alt="Bank Notification" style="max-width:100%;height:auto;display:block;margin:0px" />
+            <a href="https://idfcfr.in/IDFCFB/r1Y64G" target="_blank">
+              <img id="to-be-replaced" src="" width="650" alt="Bank Notification" style="max-width:100%;height:auto;display:block;margin:0px" />
+            </a>
           </td>
         </tr>
       </table>
