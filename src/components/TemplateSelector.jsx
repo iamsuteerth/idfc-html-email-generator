@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import emailImageTemplate from '../assets/templates/email_image.html.template?raw'
+import emailSpeakerTemplate from '../assets/templates/email_speakers_interactive.html.template?raw'
 import './TemplateSelector.css'
 
 const PREDEFINED_TEMPLATES = {
   email_image: emailImageTemplate,
+  email_speakers: emailSpeakerTemplate,
 }
 
 function TemplateSelector({ onTemplateSelect }) {
@@ -45,6 +47,7 @@ function TemplateSelector({ onTemplateSelect }) {
         <select value={selectedPreset} onChange={handlePresetChange}>
           <option value="">-- Select a template --</option>
           <option value="email_image">Bank Registration Email</option>
+          <option value="email_speakers">Speaker List Email</option>
         </select>
       </div>
       <div className="custom-template">
